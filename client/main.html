@@ -1,0 +1,19 @@
+<head>
+  <title>Send Ether</title>
+</head>
+
+<body>
+  <h1>Send Ether</h1>
+
+  {{> sendEther}}
+
+</body>
+
+<template name="sendEther">
+  <div><label for="amount">Amount:</label><input type="text" id="amount" placeholder="unit:wei"/></div>
+  <div><label for="receiver">To Address:</label><input type="text" id="receiver" placeholder="e.g., 0xd4ca556f4f294a7cf0f10e473a3663834a418fda"/></div>
+  <div><button id="send">Send Ether</button></div>
+
+</template>
+
+
